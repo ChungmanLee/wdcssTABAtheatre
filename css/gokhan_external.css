@@ -1,0 +1,98 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel&family=Raleway&display=swap');
+
+/* layout */
+#logo-nav{
+    width: 18%;
+}
+
+#logo-footer{
+    width:30%;
+    margin-bottom: 25px;
+}
+
+#header{
+    padding-top:13px;
+    color:#e8fe1d;
+    text-align:center;
+    font-family: 'Cinzel', serif;
+}
+.navbar{
+    background-color: rgb(0, 12, 119);
+    opacity: 0.9;
+  
+}
+
+.dark{
+    background-color: #4f0047;
+}
+
+.nav-link{
+    
+	font-size:23px;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.row{
+    color:#9bf515;
+    text-align: center;
+}
+
+#nav{
+    position:sticky;
+    top:0px;
+    z-index:10;
+    padding:0;
+}
+#footer{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:baseline;
+    align-content:center;
+}
+/* index */
+.event{
+	width:100%;
+}
+
+.card{
+    width:100%;
+    background-color:  rgb(0, 12, 119);
+    height:100%;
+}
+
+
+.btn{
+width: 156px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid rgb(255, 0, 0);
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+}
+
+
+.card-text{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+.card-title{
+    background-color: #4f0047;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.quote-color{
+    color:#02aede;
+}
+
+#quote{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}

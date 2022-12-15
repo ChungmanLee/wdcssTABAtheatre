@@ -1,0 +1,117 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Marcellus&family=Merienda:wght@500&display=swap');
+
+/* layout */
+#logo-nav{
+    width: 21%;
+}
+
+#logo-footer{
+    width:5%;
+    margin-bottom: 10px;
+}
+
+#header{
+    padding-top:13px;
+    color:#00251a;
+    text-align:center;
+    font-family: 'Bodoni Moda', serif;
+}
+.navbar{
+    background-color: #00251a;
+}
+
+.dark{
+    background-color: #e8f5e9;
+}
+
+.nav-link{
+	font-size:23px;
+    text-align:center;
+    font-family: 'Marcellus', serif;
+    color: #e8f5e9;
+}
+
+.nav-link:hover{
+    color: #75ccb9;
+}
+
+.nav-link:active{
+    color: #75ccb9;
+}
+
+.row{
+    color:#00251a;
+}
+
+#nav{
+    position:sticky;
+    top:0px;
+    z-index:10;
+    padding:0;
+}
+
+#footer{
+    text-align:center;
+    align-items:center;
+    align-content:center;
+}
+
+/* index */
+.event{
+	width:100%;
+}
+
+.card{
+    width:100%;
+    background-color:#75ccb9;
+    height: 98%;
+}
+
+.card img{
+    transition: 1s;
+    width:100%;
+    height:100%;
+}
+
+.card-container{
+    width:100%;
+    overflow:hidden
+}
+
+.btn{
+    background-color: #00251a;
+    color: #e8f5e9;
+    font-family: 'Marcellus', serif;
+}
+
+.card-body a:hover {
+	border: 1px solid #00251a;
+    background-color: #e8f5e9;
+}
+
+
+.card-text{
+    font-size: 20px;
+    font-family: 'Marcellus', serif;
+}
+
+.card-title{
+    background-color: #e8f5e9;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.quote-color{
+    color:#ff3d00;
+}
+
+#quote{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+/* card img animation */
+.card-img-top:hover{
+	transform: scale(1.2);
+}
