@@ -53,44 +53,6 @@ stage.addEventListener('click', (e) => {
 // intial count and total
 updateSelectedCount();
 
-// form validation of event page
-function validateForm(){
-	var x = document.forms["myForm"]["name"].value;
-	if (x == null || x == "" || x == "Enter your full name")
-	{
-	alert("Your name must be filled out");
-	return false;
-	}
-	
-	var x = document.forms["myForm"]["e-mail"].value;
-	if (x == null || x == "" || x == "example@gmail.com")
-	{
-	alert("E-mail must be filled out");
-	return false;
-	}
-
-	var x = document.forms["myForm"]["event"].value;
-	if (x == "Select Event")
-	{
-	alert("Event must be selected");
-	return false;
-	}
-
-	var x = document.forms["myForm"]["date"].value;
-	if (x == null || x == "")
-	{
-	alert("Date must be selected");
-	return false;
-	}
-	
-	var x = document.forms["myForm"]["members"].value;
-	if (x < 1)
-	{
-	alert("Members must be more than 1");
-	return false;
-	}
-}
-
 // boxoffice
 function required(){
 	var empt = document.forms["query"]["firstname"].value;
